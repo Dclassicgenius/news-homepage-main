@@ -9,15 +9,15 @@ module.exports = {
 
       colors: {
         primary: {
-          900: "hsl(var(--clr-primary-900))",
-          800: "hsl(var(--clr-primary-800))",
+          900: "hsl(35, 77%, 62%)",
+          800: "hsl(5, 85%, 63%)",
         },
 
         neutral: {
-          100: "hsl(var(--clr-neutral-100))",
-          500: "hsl(var(--clr-neutral-500))",
-          700: "hsl(var(--clr-neutral-700))",
-          900: "hsl(var(--clr-neutral-900))",
+          100: "hsl(36, 100%, 99%)",
+          500: "hsl(233, 8%, 79%)",
+          700: "hsl(236, 13%, 42%)",
+          900: "hsl(240, 100%, 5%)",
         },
       },
 
