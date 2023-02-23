@@ -20,10 +20,16 @@ module.exports = {
           900: "hsl(240, 100%, 5%)",
         },
       },
+      keyframes: {
+        "open-menu": {
+          "0%": { transform: "scaleY(0)" },
+          "80%": { transform: "scaleY(1.2)" },
+          "100%": { transform: "scaleY(1)" },
+        },
+      },
 
-      backgroundImage: {
-        "device-md": "url('/build/img/image-web-3-mobile.jpg')",
-        "device-sm": "url('/build/img/image-web-3-desktop.jpg')",
+      animation: {
+        "open-menu": "open-menu 0.5s ease-in-out forwards",
       },
     },
   },
